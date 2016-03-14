@@ -1,0 +1,14 @@
+title: Science Happy Hour
+description: >
+  **<a href="http://www.sciencehappyhour.com">Science Happy Hour</a>**
+  <br/>with <a href="http://www.edwardbenson.com">Ted Benson</a>
+copyright: Science Happy Hour
+sass:
+  sass_dir: assets/sass
+url: http://localhost:4000
+disqus_shortname: edwardbenson
+twitter_username: "edwardbenson"
+feed_icon: rss
+gems: [jekyll-paginate]
+paginate_path: "/page/:num/"
+paginate: 5
