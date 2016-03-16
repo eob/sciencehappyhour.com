@@ -1,11 +1,20 @@
 ---
-layout: post
-title: 'Hello World!'
-categories: Meta
-excerpt: 'Hello World! Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit.'
+layout: episode
+number: "000"
+duration: "TIME:CODE:LENGTH"
+length: "FILE_BYTES"
+title: "The Episode's Title"
+short_description: "This is a short description about the episode."
+aac_asset_link: "LINK TO AAC ENCODED EPISODE"
+ogg_asset_link: "LINK TO OGG ENCODED EPISODE"
+segments: "LIST, OF, SEGMENTS, IN, THIS, EPISODE"
+tags: [SOME, TAGS]
+comments: true
+category: 
+disqus: disabled
 ---
 
-Hello World!
+Hello World! 
 
 This is just a sample post.
 

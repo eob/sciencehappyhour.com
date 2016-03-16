@@ -3,18 +3,12 @@ layout: null
 sitemap:
   exclude: true
 ---
-/* THANKS */
-  Jekyll Development: David Forster
-  Twitter: @DavidForster
-  Web: http://davidforster.com
-  From: Aylesbury, United Kingdom
+# humanstxt.org/
+# The humans responsible & technology colophon
 
-  Design: AJ
-  Twitter: @n33co
-  Web: http://html5up.net
-  From: Nashville, United States
+# TEAM
+    Ted Benson -- @edwardbenson
 
-/* SITE */
-  Last Update: {{ site.time }}
-  Generator: Jekyll v{{ jekyll.version }} (http://jekyllrb.com)
-  IDE: Atom (https://atom.io)
+# THANKS
+    Thanks to all the open source developers whose work we were able to leverage while making this site
+

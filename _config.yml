@@ -1,14 +1,55 @@
+# SCIENCE HAPPY HOUR!!
+
+# Command Line
+# ----------------------------------------
+
+exclude: [
+  "node_modules",
+  "build",
+  "styles",
+  "Gemfile",
+  "Gemfile.lock",
+  "README.md",
+  "Gruntfile.js",
+  "report.html",
+  ".jscs.json",
+  ".jshintrc",
+  ".gitattributes",
+  ".gitignore",
+  "package.json"
+]
+highlighter: pygments
+sass:
+  sass_dir: assets/sass
+gems: [jekyll-paginate]
+
+# URLs
+# ----------------------------------------
+
+permalink: /:year/:month/:day/:title
+base_url: http://sciencehappyhour.com
+url: http://sciencehappyhour.com
+paginate_path: "/page/:num/"
+paginate: 5
+
+# Site
+# ----------------------------------------
+
 title: Science Happy Hour
 description: >
   **<a href="http://www.sciencehappyhour.com">Science Happy Hour</a>**
-  <br/>with <a href="http://www.edwardbenson.com">Ted Benson</a>
+  <br /><span style="display:block">with <a href="http://www.edwardbenson.com">Ted Benson</a></span>
 copyright: Science Happy Hour
-sass:
-  sass_dir: assets/sass
-url: http://localhost:4000
+tagline: Interesting discussions with scientists and engineers.
+keywords: science technology research computers
+
+author:
+  name: Ted Benson
+  email: edward.benson@gmail.com
+
+# Social Media
+# ----------------------------------------
+
 disqus_shortname: edwardbenson
 twitter_username: "edwardbenson"
 feed_icon: rss
-gems: [jekyll-paginate]
-paginate_path: "/page/:num/"
-paginate: 5
